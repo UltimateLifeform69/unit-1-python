@@ -53,6 +53,7 @@ Create a new variable equal to the first 2 items of your list
 Then print out the new variable
 """
 main=characters[0:2]
+#made a variable that has a range of 2 people on my list
 print(main)
 """
 Task 8: Extend a List
@@ -60,4 +61,6 @@ Extend the list with the elements of another list. Print
 the updated list.
 """
 sidechara=['joey','vector','shadow','krillin','robuttnik']
+#made a second list with side characters
 print(characters+sidechara)
+#added both lists together
