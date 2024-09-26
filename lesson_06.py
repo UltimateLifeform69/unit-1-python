@@ -25,7 +25,7 @@ y=10
 while y>=1:
     x=x*y
     y-=1
-
+#made an equation to answer any float that the user enters.
 print(x)
 """
 4. Password Guessing Game:
@@ -37,8 +37,11 @@ guess=input("What is your password? ")
 while guess!=word:
     print('incorrect. The password is the name of narutos first child')
     break
+#made a password and stated incorrect and gave a hint to the real password
 if guess == word:
     print('correct')
+#Made a if for when the password was correct
+
 
 
 
